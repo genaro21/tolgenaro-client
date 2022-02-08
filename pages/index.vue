@@ -27,5 +27,8 @@ export default {
       products: [],
     }
   },
+  mounted() {
+    this.$router.push('/home')
+  },
 }
 </script>
